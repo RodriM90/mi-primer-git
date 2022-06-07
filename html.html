@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil Personal</title>
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+</head>
+<body>
+    <main>
+        <!-- Coloco el header dentro del main ya que lo tomo como información importante -->
+        <header>
+            <h1>Mi presentación Personal</h1>
+            <img src="https://imageshack.com/i/pmuVagZNj" alt="Mi foto de perfil"/>
+
+            <!-- Esto a futuro podria ser una barra de navegación -->
+            <nav>
+                <ul>
+                    <li>Acerca de mi</li>
+                    <li>Mis trabajos</li>
+                    <li>Contacto</li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Genero una seccion de contenido-->
+        <section>
+            <div class="datos-personales">
+                <h2>Datos personales</h2>
+                <ul>
+                    <li>Nombre: Ramiro</li>
+                    <li>Apellido: Perez</li>
+                    <li>Edad: 25 años</li>
+                    <li>Mail: ramiperez1997@hotmail.com</li>
+                </ul>
+            </div>
+            <div class="resumen-personal">
+                <h2>Mi reseña personal</h2>
+                <span>Vivo con mis dos padres en la ciudad de San Nicolas de los Arroyos, Buenos Aires, Argentina. En diciembre de 2020, me recibí de ingeniero industrial en la Universidad Técnológica Nacional - Facultad Regional San Nicolas, luego de 5 años de estudio y mucho esfuerzo. Mi tesis se basó en el desarrollo de una aplicación de escritorio en Python vinculada a una base de datos (BD) de producción, donde el usuario realizaría las 4 operaciones básicas: crear, leer, actualizar y eliminar registros (CRUD). Fue en ese entonces cuando decidí inclinarme por el mundo de la programación. Siempre voy a recordar cuando el profesor que en ese momento era mi tutor me dijo: "si yo fuera vos, haría que esa aplicación fuese online". En ese momento yo no contaba con el conocimiento para hacerlo, ya que mi carrera no estaba enfocada a ese tipo de programación.<br>
+                Luego de recibirme, empecé a trabajar en diferentes empresas en puestos administrativos. A medida que pasaba el tiempo me replanteaba todo el tiempo: ¿Es esto lo que quiero para mi vida?<br>    
+                Hoy, despues de casi 2 años de recibirme, decidí comenzar el curso NUCBA para incorporar la programación web a mi set de herramientas, como complemento a la formación profesional.<br>
+                Dejando de lado mi vida profesional, me gusta mucho la musica rock. De hecho, soy guitarrista eléctrico y tengo una banda con mis amigos. Hacemos musica rock, pop y funky... interpretando los temas clásicos de los grandes grupos icónicos de Argentina. Podes ver algunos de mis videos entrando en los links de abajo.
+                <ul>
+                    <li>
+                        <a href="https://www.youtube.com/watch?v=Vx4IO2LgAVM" target="_blank">NPU-Campanas en la noche</a>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/watch?v=9tC5tUET9hE" target="_blank">NPU-Chau</a>
+                    </li>
+                </ul>
+                Tambien tenemos nuestros temas propios:
+                <ul>
+                    <li>
+                        <a href="https://www.youtube.com/watch?v=LIzms4pb1ms" target="_blank">NPU-Desvelado</a><br>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/watch?v=LRg7SGQ7xU8" target="_blank">NPU-Volver a Caer</a><br>
+                    </li>
+                </ul>
+                </span>
+            </div>
+            <div class="contacto">
+                <header>
+                    <h2>Contacto</h2>
+                    <p>Completa la información solicitada con tus datos.</p>
+                </header>
+                <form class="formulario-contacto">
+
+                    <label id="nombre">Nombre: </label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Ingresa tu nombre"/><br>
+
+                    <label id="apellido">Apellido: </label>
+                    <input type="text" id="apellido" name="apellido" placeholder="Ingresa tu apellido"/><br>
+
+                    <label>Genero: </label><br>
+                    <input type="radio" id="hombre" name="genero"/>
+                    <label>Hombre</label><br>
+                    <input type="radio" id="mujer" name="genero"/>
+                    <label>Mujer</label><br>
+
+
+                    <label id="mail">Mail: </label>
+                    <input type="email" id="mail" name="mail" placeholder="Ingresa tu mail"><br>
+
+                    <label id="telefono">Telefono: </label>
+                    <input type="number" id="telefono" name="telefono" placeholder="Ingresa tu teléfono"><br>
+
+                    <input type="checkbox"/>
+                    <label>Acepto recibir notificaciones y avisos</label><br>
+
+                    <input type="submit" value="Enviar"/>
+
+
+                </form>
+            </div>
+        </section>
+        <footer>
+            <h3>¡Seguime en mis redes!</h3>
+            <ul>
+                <li>
+                    <a href="https://instagram.com/ramiroperez____" target="_blank"><i class="fab fa-instagram fa-2x"> Instagram</i></a>
+                </li>
+                <li>
+                    <a href="https://facebook.com/ramiroperez97" target="_blank"><i class="fab fa-facebook-f fa-2x"> Facebook</i></a>
+                </li>
+            </ul>
+        </footer>
+    </main>
+
+
+</body>
+</html>
+
